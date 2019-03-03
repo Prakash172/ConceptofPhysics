@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAF7A6"
+    android:padding="16dp"
+    tools:context="com.erprakash.conceptofphysics.MainActivity">
+
+    <TextView
+        android:id="@+id/tvPhysics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/physics"
+        android:fontFamily="casual"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+         />
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@id/tvPhysics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/linearlayoutofscrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/chapter1"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_1_physical_world"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter2"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_2_unit_and_measurements"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter3"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_3_motion_in_straight_line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter4"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_4_motion_in_plane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter5"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_5_laws_of_motion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter6"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/work_power_and_energy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter7"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_7_rotational_dynamics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter8"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_8_gravitation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter9"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_9_mechanical_properties_of_solids"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter10"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_10_mechanical_properties_of_fluid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter11"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_11_thermal_properties_of_matter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter12"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/thermodynamics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter13"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/ktg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chpater14"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/oscillations"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter15"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/waves"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter16"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/electrostatics"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter17"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_17_electrostatic_potential"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter18"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/chapter19"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/_19_magnetic_effect_of_current"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/calculator"
+                android:textColor="#E74C3C"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/expression_solver_calculator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView
+
+        android:id="@+id/myname"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#1ABC9C"
+        android:fontFamily="cursive"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

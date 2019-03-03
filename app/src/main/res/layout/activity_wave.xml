@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#DAF7A6"
+    tools:context="com.erprakash.conceptofphysics.Wave">
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+    <TextView
+    android:padding="5dp"
+    android:textColor="#1ABC9C"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:text="@string/wave"
+    android:layout_width="368dp"
+    android:layout_height="wrap_content"
+     />
+      <WebView
+           android:id="@+id/video1"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent" />
+    <TextView
+        android:padding="5dp"
+        android:textColor="#78281F"
+        android:text="@string/defination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/wave_types"
+        android:padding="5dp"
+        android:textColor="#1ABC9C"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/types_of_waves"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        />
+       <TextView
+           android:id="@+id/types_of_wave_thoery"
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:padding="5dp"
+           android:textColor="#1ABC9C"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="@string/displacement_relation"
+           android:layout_width="368dp"
+           android:layout_height="wrap_content"/>
+       <ImageView
+           android:contentDescription="@string/waveimage"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/wave1"/>
+       <TextView
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:text="@string/displacement_relation_theory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <TextView
+           android:padding="5dp"
+           android:textColor="#1ABC9C"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="@string/terms_of_wave"
+           android:layout_width="368dp"
+           android:layout_height="wrap_content"/>
+       <ImageView
+           android:id="@+id/prop"
+           android:contentDescription="@string/waveimage"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:src="@drawable/basic_properties"/>
+       <TextView
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:text="@string/term_theory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:padding="5dp"
+           android:textColor="#1ABC9C"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="@string/velocity"
+           android:layout_width="368dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:text="@string/velocity_theory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:padding="5dp"
+           android:textColor="#1ABC9C"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="@string/wavelength"
+           android:layout_width="368dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:text="@string/wavelength_theory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:padding="5dp"
+           android:textColor="#1ABC9C"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="@string/relation_between_wvt"
+           android:layout_width="368dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:text="@string/relation_between_wvt_theory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:padding="5dp"
+           android:textColor="#1ABC9C"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="@string/frame_of_referencend_intial_phase"
+           android:layout_width="368dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:text="@string/frame_of_referencend_intial_phase_theory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:padding="5dp"
+           android:textColor="#1ABC9C"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="@string/speed_of_wave_in_streched_string"
+           android:layout_width="368dp"
+           android:layout_height="wrap_content"/>
+       <TextView
+           android:padding="5dp"
+           android:textColor="#78281F"
+           android:text="@string/speed_of_wave_in_streched_string_theory"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+   </LinearLayout>
+</ScrollView>

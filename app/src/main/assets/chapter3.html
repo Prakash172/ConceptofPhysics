@@ -1,0 +1,396 @@
+<!DOCTYPE html >
+<html lang="en" >
+
+<head>
+
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=UnifrakturMaguntia">
+	<link rel="stylesheet" href="file:///android_asset/mathscribe/jqmath-0.4.3.css">
+	<script src="file:///android_asset/mathscribe/jquery-1.4.3.min.js" charset="utf-8"></script>
+	<script src="file:///android_asset/mathscribe/jqmath-etc-0.4.6.min.js" charset="utf-8"></script>
+    <title>Physical world</title>
+</head>
+<body>
+<p id="First"><a href="#last">Last</a></p>
+<h1>Mechanics</h1>
+Mechanics is the branch of applied mathematics dealing with motion and forces producing motion.
+It is mainely divided into two parts <br>
+1.Kinematics <br>
+2.Dynamics <br>
+<b>Cause and effect analogy :</b>
+<p>When a particle moves it follows some trajectory , the study of trajectory of the motion is callled kinematics(What is happening ?) and the study of cause of that
+tracjectory comes under the dynamics (Why it is happening ?).
+</p>
+<h1>Chapter : Motion in straight line</h1>
+<h2>3.1 Introduction</h2>
+When the mtoion of bodies is along the straight line , it is called one Dimensional Motion or Rectilinear motion.In this chapter we will study all the concepts related to the motion in straight line such as velocity, accelerations and so on.
+Example of motion in straight lines  are :<br>
+1.Freely falling bodies.<br>
+2.Riding a bike on straight path.<br>
+3.Dropping down a ball from building in straight line.<br>
+4.Throwing a ball vertically upward .etc..<br>
+
+<h2>Differential calculas</h2>
+Let us consider two points x and y such that for every value of x there would be one and only one value of y , then let us say we have cahnged the value of x to $x+\Δx$ then there would be some change in y also ,say $y+\Δy$ .
+Graphical representation is
+<img src="file:///android_asset/images/derivative/diferential.png">
+<h3>Rate of change : definition</h3>
+When x changes by Δx , y chnages by Δy , so that the rate of change seems to be equal to $Δy/Δx$ .
+$${Δy}/{Δx} = slope of line PQ$$
+Rate is defined as change in slope when $"Δx tends to 0 "$ i.e
+Rate = ${dy}/{dx} = {lim} ↙{Δx->0}{Δy}/{Δx}$<br>
+Note :<br>
+1. If the funtion y increses with increase in x at a ponit , dy/dx is positive .<br>
+2.If function y decreses with an increase in x , then dy/dx is negative.
+<br>
+<h4>General formule :</h4><br>
+1.$d/{dx}(cx) = c{dy}/{dx}$<br>
+2.$d/{dx}(u+v) = {du}/{dx} + {dv} /{dx}$<br>
+3.$d/{dx}(u.v) = v{du}/{dx} + u{dv} /{dx}$<br>
+4.$d/{dx}(u/v) = {v{du}/{dx} - u{dv} /{dx}}/v^2$<br>
+5.power(function(angle)) rule.
+<h4>Some specific formule</h4>
+These are the basic formulas which we will use in our problems solving strategy.
+<img src="file:///android_asset/images/derivative/derivative.png">
+<h5>Examples</h5>
+<img src="file:///android_asset/images/derivative/deri_examples1.png">
+<img src="file:///android_asset/images/derivative/d2.png">
+<img src="file:///android_asset/images/derivative/d3.png">
+
+<h3>Home Work exercise</h3>
+<img src="file:///android_asset/images/derivative/deser1.png">
+<img src="file:///android_asset/images/derivative/dexer2.png">
+<h2>Maxima and Minima</h2>
+Suppose a quanity y depends on another qunatity x in a manner as shown in figure . It become maximum at P and minimum at Q .
+<img src="file:///android_asset/images/derivative/maxima.png">
+The maxima is corresponds to point P and minima is correspond to the point Q . At this points the slope is zero i.e
+$$tanθ = {dy}/{dx} = 0$$
+Now, take a point just before the P , the slope at this is positive and just after the point P(at maxima , slope changes from positive to negative) , the value of slope is negative.ie
+Slope at P is decreasing $d/{dx}({dy}/{dx}) < 0 $at maximum<br>
+similarly , at point Q , the rate of change of slope is increasing (changes from negative to positive). i.e.<br>
+$d/{dx}({dy}/{dx})>0$ at minima.
+
+<h1>Integral calculas</h1>
+<img src="file:///android_asset/images/intergral.png">
+<p>Let AB be the curve representing relation between two variable x and y .</p>
+<p>We are interested in finding the area of aABb .Let us divide ab in N equal parts(Δx) elements such tha length $Δx={b-a}/N$</p>
+
+Area = $A_1$+$A_2$+.....$A_n$<br>
+
+= f(a)Δx+f(a+Δx)Δx+f(a+2Δx)Δx+.......f(a+(N-1)Δx)Δx .<br>
+
+$$I = Σ↙{i=1}↖Nf(x_i)Δx$$
+This area differs slightly from the area aABb. this difference is the sum of area of triangle formed just under the curve.
+As we increase the number of intervals N, the intervals of bars touch AB at more points and the area of the small triangle decreases . As N tends to infinity(Δx tends to zero ) i.e<br>
+${lim} ↙{Δx{->}∞}{{b-a}/N} $ tends to Zero<br>
+So total area becomes , $$I = {lim} ↙{Δx->∞} Σ↙{i=1}↖Nf(x_i)Δx$$
+In Mathematics this quantity is denoted as<br>
+$$I = ∫↙a↖b f(x)dx$$
+Where a is lower limit and b is upper limit<br>
+<h4>Some general and specific formule</h4>
+<img src="file:///android_asset/images/commonintegrals.png">
+<h2 style="color:green;">Rest and Motion</h2>
+<h3>Position</h3>
+<p>
+    The position of any point is completely described by two factors . Its distance from the observer and it's direction with respect to the
+    observer.that is why , position is characterised by a vector known as <b>position vector</b>.
+</p>
+<h2>let's undestand the Vector!!! first</h2>
+<h3>Scalar qunatity </h3>
+<p>The physical quantity whih are completely described by a numeric valu with unit specified and added according to simple rules of algebra
+ is called scalar quantity.</p>
+For example : <br>
+The mass of a system is described by saying that it is 50Kg . <br>
+if $m_1$ = 10 Kg, $ m_2$ = 12 Kg , then $m = m _1 + m_2$ =10+12 = 22Kg
+
+<h3>Vector quantity</h3>
+The physical quantities which requires a numerical value(Magnitude) as well as Direction for its complete description is called vector
+quantity.<br>
+For Example : Boy is running at 5m/s towards west.<br>
+> 5m/s is magnitude <br>
+> in west is direction.<br>
+It doesn't follow simple algebra .<br>
+Exampler event : Suppose a small ball us moving inside a tube at a speed of 4m/s and tube itself moving in room at a4m/s along a direction
+perpendicular to it's length .In which direction and how fast is the ball moving as seen from the room ?<br>
+<img src="file:///android_asset/images/event1.png">
+In triangle ABC , by using pythagoras formula , Length AC  = 4√2 , and angle is $tanθ ={BC}/{AB}$  which is equal to 1 , and thus θ = 45° .
+So we can say that the ball is moving with a velocity of 4√2 m/s and in direction making an anlge of 45° with tube.
+<br>
+<b>Conclusion : </b>From the above event , Draw a line representing AB , the first velocity vector with B as the Head. Draw another line
+BC representing the second velocity with its tail B coinciding with the head of the first line .The line AC with A as tial and C as the head represent the resultant velocity.
+<img src="file:///android_asset/images/traingle_law.png">
+This resultant is called sum of two vectors .<br>
+Example of vector quantities :<br>
+Force <br>
+Linear momentum<br>
+Electric field<br>
+Magnetic field etc ..<br>
+<h2>Notations</h2>
+The vector is denoted by putting an arrow over the symbols representing them .<br>
+$${AB}↖{->} , {v}↖{->}$$<br>
+<b>Note : If a physical quantity is having magnitude and directiion as well , but doesn't add up according to triangle law, it will not be a vector quantiy.
+Example :Current in a wire has magnitude and direction as well but doesn;t follow thw vector law of addition and thus we can say that current is not a vector quantity.</b>
+
+<h3>Difference between vector and scalar quantity</h3>
+<img src="file:///android_asset/images/diff.png" height="200px" width="400px">
+
+<h3>Types of vector</h3>
+<b>Equal vector : </b> two vectors A and B are sait to be equal when they have equal magnitude and same direction , represent some physical quantity.
+<p><b>Parallel vector : </b>
+    Two vectors are said to be parallel when ,
+    i)Both have same direction<br>
+    ii)One vector iss scalar non-zero mulltiple of another vector.
+</p>
+<p><b>Antiparallel</b>
+    Two vectors are said to be parallel when ,
+    i)Both have opposite direction<br>
+    ii)One vector iss scalar non-zero mulltiple of another vector.
+</p>
+<p><b>Collinear vectors</b>
+Collinear vectors are those vectors which acts along the same line . So angle between them is 0 or 180 .
+</p>
+
+<p><b>Zero vector</b>
+A vector having zero magnitude and arbitary direction is said to be a zero vector.
+</p>
+<p><b>Unit vector</b>
+A vector divided by its magnitude is called a unit vector .<br>
+    denoted by $A↖{\^} = A↖{->}/{|A|}$<br>
+    USE : unit vector gives the direction.
+</p>
+<p><b>Orthogonal unit vector</b>
+$i↖{^},j↖{^},k↖{^}$ are called orthogonal unit vector.<br>
+    $i↖{^} = {x↖{->}/x}$<br>
+    $j↖{^} = {y↖{->}/y}$<br>
+    $k↖{^} = {z↖{->}/z}$<br>
+</p>
+<p><b>Coplanner Vector</b>
+If they lie in the same plane called coplanner vector.</p>
+<img src="file:///android_asset/images/othogoanal.png">
+<h2>Vector addition</h2>
+<h3>Triangle Law of Vector Addition</h3>
+<p>If two non-zero vectors are represented by two sides of a traingle taken in same order then the resultant is given by the closing of side of triagnle in opposite order.
+</p>
+<img src="file:///android_asset/images/vector/v1.jpg">
+<img src="file:///android_asset/images/vector/v2.jpg">
+<h3>Parallalogram law of vector addition</h3>
+<img src="file:///android_asset/images/par.png">
+<p>
+The Statement of Parallelogram law of vector addition is,If two non-zero vectors are considered to be the adjacent sides of a Parallelogram,
+then the resultant of two vectors is given by the vector which is a diagonal passing through the point of contact of two vectors.
+</p>
+    <b>Proof</b>
+<p>Let a,b be two vectors & let these constitute the sides of a parallelogram such that they are co-initial from one of the vertices of a parallelogram.
+So, considering assumption that the law be true(this is what we'll judge now whether by taking the assumption for the validity of the law, we can prove
+something which is earlier ascertained by elementary geometry), the two diagonals are a+b,b−a.</p>
+Sum of the squares of the diagonals is ${|a+b|}^2+{|b−a|}^2$.
+<p>
+Now, from Euclidean Geometry, we get from Parallelogram law which states that,
+<b>The sum of the squares of the lengths of the four sides of a parallelogram equals the sum of the squares of the lengths of the
+two diagonals.</b></p>
+<p>
+So, the sum of the squares of the diagonals i.e. ${|a+b|}^2+{|b−a|}^2$ must be equal to the sum of the squares of the sides $2({|a|}^2+{|b|}^2)$ .
+</p>
+This can be proved by inner product or for this case dot product.
+<br>
+${|a+b|}^2+{|b−a|}^2$=(a+b)⋅(a+b)+(b−a)⋅(b−a)<br>
+${|a+b|}^2+{|b−a|}^2$ = 2a⋅a+2b⋅b<br>
+$2({|a|}^2+{|b|}^2)$ .<br>
+which makes our assumption that the law is true absolutely true.
+
+<h3>Polygon law of vector addition</h3>
+<img src="file:///android_asset/images/polygon.png">
+<p>
+    If number of non-zeros vectors are represented by the (n-1)sides of an n-sided polysgon taken in some order then the resultant
+    is given by the closing side or the n<sup>th</sup> side of the polygon taken in opposite order .
+</p>
+<h2>Subtraction of vectors</h2>
+<img src="file:///android_asset/images/sub.png">
+<h1>Product of two vectors</h1>
+<img src="file:///android_asset/images/vector/p0.jpg">
+<img src="file:///android_asset/images/vector/p1.jpg">
+<img src="file:///android_asset/images/vector/P2.jpg">
+<img src="file:///android_asset/images/vector/p3.jpg">
+<img src="file:///android_asset/images/vector/p4.jpg">
+
+<h1>Motion in 1D</h1>
+
+<h3>Position</h3>
+<p>
+    The position of any point is completely described by two factors . Its distance from the observer and it's direction with respect to the
+    observer.that is why , position is characterised by a vector known as <b>position vector</b>.
+</p>
+<h3>position vector</h3>
+<img src="file:///android_asset/images/pos.png">
+Consider a point P in xy plane and it's coordinate are (x,y) .Then position vector $r↖{-} = x{i}↖{\^}+y{j}↖{\^}$ and if the point P is in the space and its coordinate is
+(x,y,z) , then the position vector would be $r↖{-} = x{i}↖{\^}+y{j}↖{\^}+z{k}↖{\^}$ .
+<h2 style="color:green;">Rest and Motion</h2>
+<h3>Rest</h3>
+If a body changes its position as time passes with respect to frame of reference , it is said to be in rest.
+<h3>Motion</h3>
+If a body changes its position as time changes with respect to frame of reference , it is said to be in motion.
+<br>
+<b>Frame of reference :</b> It is a system to which a set of coordinates are attached and with reference to which observer having a clock describe any event.
+<br>
+<b>Types of frame of reference :</b>
+1.Inertial frame of reference (a = 0):<i> Inertial frame of reference is one in which Newton's first law of motion holds good.</i>,<br>
+2.Non-inertial frame of reference(a != 0) :<i>Non-inertial frame of reference is one in which Newtons's first law doesn't holds good.</i><br>
+
+Example<br>
+A passenger standing on the platform observe that a tree on platform is at rest . But the same passenger passing away in a train through station
+, observes that the tree is in motion. In both condition observer is right. But observations are different because in first situation observer stands on a platform , which is frame of reference
+at rest and in second situation the observer is in moving train , which is reference frame in motion.
+
+<b>Note : Rest and motion are relative terms depending upon the chice of frame of reference .</b>
+<h4>Particle , point mass or Point object</h4>
+The smallest part of matter with zero dimension which can be described by it's mass and position is defined asa a particle or point mass.
+If the size of the body is negligible in comparision  to its range of motion then that body is know as a particle.
+<br> When a body is treated as a particle , all parts of the body undergoes same displacement and have same velocity and acceleration.
+<h3>Distance and Displacement</h3>
+<b>Distance : </b>It is the actual length of path covered by a moving particle in a given interval of time.<br>
+> it is a scalar quantity<br>
+> Dimension = $[M^0L^1T^0]$<br>
+> Unit : metre(S.I)<br>
+> It is always positive.<br>
+
+<b>Displacement: </b>Displacement is change in position vector i.e A vector joining intial position to final position.<br>
+> It is a vector quantity<br>
+> Dimension = $[M^0L^1T^0]$<br>
+> Unit : metre(S.I)<br>
+> It can be positive , negative and zero as well.<br>
+
+Example :
+<img src="file:///android_asset/images/displacement_distance.png">
+The distance travelled from A to C is 3+4 = 7m , where as the displacement between A and C is equal to 5m.
+<br>
+<h4>Difference between distance and displacement</h4>
+i)The magnitude of displacement is equal to minimum possible distance between two points So, <br>
+Distance >= |Displacement|<br>
+ii) For a moving particle , distance can never be negative or zero while displacement can be.
+<br>Displacement > = or < 0 , but Distance > 0 <br>
+iii) For motion between two points , displacement is sigle valued while distance depends on actual path and so can have may values.
+<br>iv) For a moving particle distance can never be decrease with time while displacement can.
+<br>v) In general magnitude of displacement is not equal to distance .However , it can be so if the motion is along a straight line without change in direction .
+
+<b>Questions to be added ..</b>
+<h3>Speed and Velocity</h3>
+<b>Speed : </b>
+The rate of distance covered with time is called speed . or we can also define speed as a ratio of distance and time.
+<br>It is a scalar quantity having symbol v
+<br>Dimension : $[M^0LT^{-1}]$
+<br>Unit : m/s
+<br>
+<b>Types of Speed</b>
+<br>i)Uniform speed : When a particle covers equal distance in equal interval of time , then this kind of speed is called unifom speed.
+<br>ii)non-uniform speed : In non-uniform speed particle covers unequal distance in euqal interval of time or equal distance in uneqaual interval of time.
+<br>iii)Average speed : The average speed of a particle is defined as the ratio of total distance covered to the total time taken.
+$$Average speed = {Total\ distance\ travelled}/{Total\ time\ taken}$$
+<br>$v_{av} = {Δs}/{Δt}$
+<br><b>Instantaneous speed</b>It is the speed of a particle at a particular instant of time . When we say "speed", it usually means instantaneuos speed.<br>
+The instantaneous speed is average speed for infinitesimally small time interval (Δt->0).<br>
+Thus, instantaneous speed $v = {lim}↙{Δt->0}{Δs}/{Δt} = {ds}/{dt} $
+<br>
+<h4>velocity</h4>
+The rate of change of position i.e rate of change in displacement with respect to time is called velocity.
+i) It is a vector quantity.<br>
+ii)Dimension : $[M^0LT^{-1}]$ <br>
+iii) Unit : m/s <br>
+
+<h5>Types of velocity</h5>
+
+<br>i) <b>Uniform velocity :</b> A particle is said to be in uniform velocity, if the magnitude as well as direction of its velocity remains same and this
+is possible only when the particle moves in straight line without reversing its direction with constant speed.
+<br>ii)<b>Non- uniform velocity :</b> A particle is said to have non-uniform velocity , if either magnitude or direction change or both of them changes .
+<br>iii)<b> Average velocity</b>: It is defined as the ratio of displacement to time taken by body.
+$${Average\ velocity} = {Dispalcement} / {Time\ Taken}$$<br>
+$$v_{av} = Δr↖{-}/{Δt}$$
+
+<br>iv) <b>Intatataneous velocity </b> :It is defined as rate of change of position vector of particle with time at certain instant of time.
+<br>$$v = {lim}↙{Δt->0}Δr↖{-}/{Δt} = {dr}↖{-}/{dt} $$
+
+<p>Ques : What is the difference between instantaneous speed and instantaneous velocity ?</p>
+<p>Ans : The list of differences between instantaneous speed and instantaneous velocity are as follow :</p>
+
+a)Instantaneous velocity is always tangential to the path followed by the particle.<br>
+b)A particle  may have constant instantaneous speed but variable velocity.
+<br>Example : When a particle is performing uniform circular motion then for every instant of its circular motion its speed remains constant but its instantaneous velocity changes at every instant of time.<br>
+c)The magnitude of instantaneous velocity is equal to instantaneous speed.<br>
+d)If a particle is moving with constant velocity then its average velocity and instantaneous velocity are always equal.<br>
+e)If displacement is given as a function of time , then time derivative of displacement will give the velocity.
+
+
+<p>Ques : What is the difference between average speed and average velocity ?</p>
+<p>List of differences:</p>
+a)Average speed is scalar and average velocity is vector , both having same dimension and unit.<br>
+b)Average speed or velocity depends on time interval over which it is defined.<br>
+c)For a given time interval average velocity is single valued while average speed can have more than one value depending on path.<br>
+d)If after motion , body comes back to initial position than average velocity will be zero but the average speed will be non-zero.<br>
+e)For a moving body average speed can never be negative or zero , while average velocity can be.<br>
+
+<h3>Uniform motion in straight line</h3>
+An object is said to be in uniform motion if it's velocity is uniform, i.e, it undergoes equal displacements in equal intervals of time, howsoever small intervals maybe.
+<br>
+The velocity of particle having the initial poisition $x_1$ at $t_1$ and $x_2$ at $t_2$ , then <br>
+$v={x_2-x_1}/{t_2-t_1}$
+<br>
+Following are the important features of uniform motion.
+<br>1.For a uniform motion along a straight line in a given direction , the magnitude of the displacement is equal to actua distance covered by the object.
+<br>2.The velocity in uniform motion does not depend upon time interval.
+<br>3.The velocity in uniform motion is independent of choice of origin.
+<br>4.The velocity of an object is taken positive if the object is moving towards the right of origin and is taken to be negative if the object is moving towards the left of the origin.
+<br>5.No force is required for an object to be in uniform motion.
+<br>6.The average and instantaneous velocities have sae value in uniform motion.
+
+
+<h3>Formula for uniform motion</h3>
+${distance}={speed}*{time}$
+
+<h2>Acceleration</h2>
+The time rate chnage of velocity of an object is called acceleration of the object.<br>
+<table>
+    <tr>
+        <td>It is a vector quantity. it's direction is same as that of change in velocity.</td>
+    </tr>
+    <tr>
+        <td>Dimension: [ML$T^{-2}$]</td>
+    </tr>
+    <tr>
+        <td>Unit: m/s</td>
+    </tr>
+</table>
+<h4>Possiblle ways of change in velocity</h4>
+<h5>When only direction of the velocity changes</h5>
+Acceleration is perpendicular to the velocity.<br>
+Example: Uniform circular motion.<br>
+<h5>When only magnotude of the velocity changes</h5>
+Acceleration parallel or antiparallel to the velocity<br>
+Example: Motion under gravity.<br>
+<h5>When both magnitude and direction of velocity changes</h5>
+Example:Acceleration has two components , one is perpendicular to the velocity and another is parallel or antiparallel to the velocity.<br>
+Example: Projectile motion.<br>
+
+<h4>uniform acceleration</h4>
+A body is said to have uniform acceleration if magnitude and direction of acceleration remains constant during particle motion.<br>
+<h4>Non-uniform motion</h4>
+A body is said to have non-uniform acceleration , if either magnitude or direction or both of them changes during the motion.<br>
+<h4>Average acceleration</h4>
+It is defined as the ratio of change in velocity and time difference.<br>
+$$a_av = {v_2-v_1}/{t_2-t_1}$$
+The direction of average acceleration vector is direction of change in velocity vector.<br>
+<h4>Instentenous acceleration</h4>
+The limiting value of average acceleration where change in time tends to zero , it is said to be instantenous acceleration.<br>
+<h5>Some Point about acceleration</h5>
+>For a moving body there is no definite relation between the direction of instantenous acceleration and instantenous velocity.<br>
+Example:In uniform circular motion angle is 90 degree always , where as in case of projectile motion, angle changes at every instant.<br>
+>If force F acts on a body of mass m , then by newtons second law, $F = ma$. <br>
+>If x is given as a function of time,, second time derivative of displacement gives acceleration.<br>
+>Acceleration can be positive , zero or negative. Positive acceleration means velocity is increasing with time, zero acceleration means velocity is uniform
+while negative acceleration means velocity is decreasing with time.<br>
+>For a body under the gravity , the accelration due to gravity is equal to "g", where g is acceleration due to gravity. It's value is 9.8m/$s^2$.<br>
+
+<h1>Graph concepts</h1>
+<h2>Position Time graph</h2>
+Position time graph is plotted by taking time t along x- axis and position along y-axis.<br>
+<p id="Last"><a href="#First">First</a></p>
+</body>
+</html>

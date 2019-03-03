@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/snow"
+    tools:context="com.erprakash.conceptofphysics.UnitAndMeasurement">
+
+    <LinearLayout
+       android:orientation="vertical"
+       android:id="@+id/unit2fragmentlout"
+       android:layout_width="match_parent"
+
+       android:layout_height="match_parent"
+        android:weightSum="1">
+
+    <TextView
+        android:id="@+id/unitnm_tv"
+        android:padding="5dp"
+        android:textColor="#1ABC9C"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/unit_and_measurement"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        />
+        <TextView
+            android:id="@+id/introduction"
+            android:padding="5dp"
+            android:textColor="#78281F"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/introductionhead"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/introduction2"
+        android:padding="5dp"
+        android:text="@string/introduction"
+        android:textColor="#78281F"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fundamenta"
+            android:padding="5dp"
+            android:textColor="#1ABC9C"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/fundamental_or_base_quantities_and_thier_units"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:text="@string/fundamentalq"
+            android:textColor="#78281F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_gravity="center"
+            android:contentDescription="@string/fundamental"
+            android:src="@drawable/units"
+            android:layout_width="wrap_content"
+            android:layout_height="@android:dimen/thumbnail_height"
+            android:layout_weight="0.24" />
+        <TextView
+            android:id="@+id/definations"
+            android:padding="5dp"
+            android:text="@string/definations"
+            android:textColor="#78281F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:textColor="#1ABC9C"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/two_supplementry_units"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:padding="5dp"
+            android:text="@string/radian_and_stredian"
+            android:textColor="#78281F"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <WebView
+            android:id="@+id/formula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,447 @@
+<resources>
+    <string name="app_name">"Concept of Physics "</string>
+    <string name="physics">Physics</string>
+    <string name="myname">Er.Prakash sharma</string>
+    <string name="_1_introduction_to_physics">1 - Introduction to physics</string>
+    <string name="thermodynamics">12 - Thermodynamics</string>
+    <string name="ktg">13 - Kinetic Theroy of Gases</string>
+    <string name="waves">15 - Waves</string>
+    <string name="oscillations">14 - Oscillations</string>
+    <string name="_1_physical_world">1 - Physical World</string>
+    <string name="_2_unit_and_measurements">2 - Unit and Measurements</string>
+    <string name="_3_motion_in_straight_line">3 - Motion in straight line</string>
+    <string name="_4_motion_in_plane">4 - Motion in Plane</string>
+    <string name="_5_laws_of_motion">5 - Laws of motion</string>
+    <string name="work_power_and_energy">6 - Work , Power and Energy</string>
+    <string name="_7_rotational_dynamics">7 - Rotational Dynamics</string>
+    <string name="_8_gravitation">8 - Gravitation</string>
+    <string name="_9_mechanical_properties_of_solids">9 - Mechanical Properties of Solids</string>
+    <string name="_10_mechanical_properties_of_fluid">10 - Mechanical Properties of Fluid</string>
+    <string name="_11_thermal_properties_of_matter">11 - Thermal Properties of Matter</string>
+    <string name="prev">prev</string>
+    <string name="next">next</string>
+    <!--Chapter 1 notes -->
+    <string name="chapter1">
+  <strong>What is physics ?</strong>Relation between physics and Mathematics
+    Mathematics is the language of physics . Without the knowledge of mathematics it would be much more
+    difficult to discover and understand  and explain the laws of nature.\n
+
+<i>Example :</i>
+    The law of gravitaion says that \"gravitational force between two bodies is directly proportional to the
+    product of its masses and inversaly proportional to the square of the distance between them\" .
+    </string>
+    <string name="what_is_physics">What is physics ?</string>
+    <string name="whatisphysics"><![CDATA[Physics is the study of Nautre and its laws . All the different events in the nature takes place according to some laws , Physics is all about the revealing these laws of nature.\n\n Example : The orbitting of the moon around the earth , falling of an apple from the tree annd tides in seas etc. can all be explained if we know the Newton\'s laws of gravitation. \n\n Chess events can be compared with the events of the Nature , and We can reveal the laws of nature by observing , similar to the revealing the laws of chess by simply observing the events.]]></string>
+    <string name="relation_between_physics_and_mathematics">Relation between Physics and Mathematics</string>
+    <string name="relation">Mathematics is the language of physics . Without the knowledge of mathematics it would be much more
+    difficult to discover and understand  and explain the laws of nature.\n\n
+    Example:\n
+    The law of gravitaion says that \"gravitational force between two bodies is directly proportional to the
+    product of its masses and inversaly proportional to the square of the distance between them\" .
+    \nThis can be simply represented by Mathematics as follow :
+        \n\t\t\t\t\t\t\t\t\t\t\tF = Gm1m2/r<sup>2</sup>
+</string>
+    <string name="principle_thrusts">
+<strong>There are two principal thrusts in Physics </strong> \n
+ 1.Unification\n 2. Reduction\nUnification\n• Efforts are made to explain different phenomena in nature on the basis of one or
+minimum laws. This is principle of Unification.Example: Phenomena of apple falling to ground,moon revolving around earth and weightlessness in
+the rocket, all these phenomena are explained with help of one Law that is, Newtons Law of Gravitation.
+\n\n
+        Reductionism\n• To understand or to derive the properties of abigger or more complex system the properties
+of its simpler constituents are taken into account. This approach is called reductionism. \nIt is supposed to be the heart of Physics.
+For example a complex thermo dynamical system can be understood by the properties of its constituent like
+kinetic energy of molecules and atoms.
+    </string>
+    <string name="priciple_thrusts_in_physics">Principle Thrusts in Physics</string>
+    <string name="scope_of_physics">Scope of Physics</string>
+    <string name="scope_of_physics_theory"> The scope of Physics can be divided in to two domains \n\n Macroscopic and Microscopic.\n\n • Macroscopic domain includes phenomena at the level of Laboratory, terrestrial and astronomical scales.\n • Microscopic domain I ncludes atomic, molecular and nuclear phenomena. \n• Recently third domain in between is also thought of with name Mesoscopic Physics. This deals with group of Hundreds of atoms \n • Scope of physics is very wide and exciting because it deals with objects of size as large as Universe (10<sup>25m</sup>) and as small as 10<sup>-14</sup> m, the size of a nucleus. \n\nThe excitement of Physics is experienced in many fields Like:\n • Live transmissions through television. \n• Computers with high speed and memory, \n• Use of Robots,\n • Lasers and their applications</string>
+    <string name="other_branch_relations">Physics in relation to other branches of Science
+Physics in relation to Chemistry.\n
+• Chemical bonding, atomic number and complex structure can be explained by physics
+phenomena of Electrostatic forces,\n • taking help of X-ray diffraction\n\n  Physics in relation to Biological Sciences:
+Physics helps in study of Biology through its inventions. Optical microscope helps to study bio-samples, electron microscope helps to
+study biological cells. X-rays have many applications in biological sciences. Radio isotopes are used in cancer.
+      \n\n  Physics in relation with Astronomy:\n • Giant astronomical telescope developed in physics are used for observing planets. Radio
+telescopes have enabled astronomers to observe distant limits of universe.\n • Physics related to other sciences: Laws of
+Physics are used to study different phenomenas in other sciences like Biophysics, oceanography, seismology etc.
+    </string>
+    <string name="fundamental_forces">Fundamental Forces in Nature There is a large number of forces experienced or
+applied. These may be macroscopic forces like gravitation, friction, contact forces and microscopic
+forces like electromagnetic and inter-atomic forces. But all these forces arise from some basic forces called
+Fundamental Forces.\n\n  Fundamental Forces in Nature..\n\n
+1. Gravitational force.\n
+• It is due to Mass of the two bodies.\n
+• It is always attractive.\n
+• It operates in all objects of universe.\n
+• Its range is infinite\n
+It’s a weak force. 10<sup>-38 </sup>times compared to strong
+Nuclear force\n\n
+2.Electromagnetic Forces:\n\n
+• It’s due to stationery or moving Electrical charge
+• It may be attractive or repulsive.\n
+• It operates on charged particles\n
+• Its range is infinite\n
+• Its stronger 1036 times than gravitational force but 10<sup>-2</sup>\n times of strong Nuclear force.\n\n
+3.Strong nuclear force:\n
+• Operate between Nucleons\n
+• It may be attractive or repulsive\n
+• Its range is very short, within nuclear size
+(10<sup>-15 m</sup>).\n
+• Its strongest force in nature\n\n
+4.Weak Nuclear force:\n\n
+• Operate within nucleons I.e. elementary
+particles like electron and neutrino.\n
+• It appears during radioactive b decay.\n
+• Has very short range 10<sup>-15m</sup>.\n
+• 10-13 times than Strong nuclear force.\n\n\n
+</string>
+    <string name="conservative_laws">
+        Conservation Laws\n\n
+• In any physical phenomenon governed by different forces, several quantities do not change with time. These special quantities are
+conserved quantities of nature. \n
+1.For motion under conservative force, the total mechanical Energy of a body is constant. \n
+2.Total energy of a system is conserved, and it is valid across all domains of nature from microscopic to
+macroscopic. Total energy of the universe is believed to be constant.\n
+3.Conservation of Mass was considered another conservation law, till advent of Einstein. Then it was
+converted to law of conservation of mass plus energy.
+Because mass is converted into energy and vice-versa according to equation E = mc<sup>2</sup>
+The examples are annihilation and pair production.\n
+4.Momentum is another quantity which is preserved. Similar is angular momentum of an isolated system.
+5.Conservation of Electric charge is a fundamental law of nature.\n
+6. Later there was development of law of conservation of attributes called baryon number, lepton number and so on.\n\n
+The laws of nature do not change with change of space and time. This is known as symmetry of space
+and time. This and some other symmetries play a central role in modern physics. Conservation laws are
+connected to this.</string>
+    <string name="fundamental_forces_of_nature">Fundamental forces of nature</string>
+    <string name="conservation_laws">Conservation Laws</string>
+    <string name="some_important_discoveries">Some Important Discoveries</string>
+    <string name="imp_dis">Some Important Discoveries</string>
+    <string name="technology_uses_physics">Technology uses physics</string>
+    <!-- Chapter 1 ends here -->
+    <!-- chapter 2 start -->
+    <string name="defination">A wave disturbance that travels through a medium from one location to another location without the acutal physical transfer of
+       material is called Waves .\n
+        A wave carry information and energy in the form of signals.
+        \n\t\t\tExample : When we make a call to our friend , the sound wave generated from our vocal cords get converted into electrical or light signals and travels through
+        the medium (Copper or optical fibre ), at the receiving end the signal again gets converted to the sound wave and thus the communication occurs.
+        \nThis type of motion of energy is called wave motion .
+        \n\n Characterstics of Wave Motion
+        \n1. The particles of the medium vibrate simple harmonically about their mean position and do not leave their posiion and moves with disturbance.\n
+        2.The phase of the particles of the medium keeps on changing.\n
+        3.The velocity of the particles during their vibration is different at different positions.\n
+        4.The velocity of wave through a particular medium is constant.\n
+        5.Energy is propagated without any transfer of matter.\n
+        6.For propagation of wave , a medium should have following properties :\n
+        -Elasticity : So that particles can return to their mean position after disturabance.\n
+        -Inertia : So that particles can store energy and overshoot their mean position .\n
+        -Minimum friction amongst the particles of the medium.\n
+        -Uniform density of the medium.\n</string>
+    <string name="types_of_wave">
+        \n
+        Types of waves :\n\n
+        Waves can be classified into three types:
+\nMechanical waves
+\nElectromagnetic waves
+\nMatter waves.
+        \n\n
+        Mechanical Waves :
+\n\nMechanical Waves act as the propagation of a disturbance through a material medium due to the repeated periodic motion of the particles of the medium about their mean positions, the disturbance being handed over from one particle to the next.
+The existence of medium is essential for propagation. The Method of energy propagation in which disturbance propagates with definite velocity without changing its form is called Mechanical Wave.
+Energy and momentum propagates by motion of particles of medium. But medium remains at previous position. The mass transfer does not take possible here. The Propagation is possible due to property of medium like elasticity and inertia. Examples: vibration of string, vibration of string, the surface wave produced on the surface of solid and liquid, sound waves, tsunami waves, earthquake P-waves, ultra sounds, vibrations in gas, and oscillations in spring, internal water waves, and waves in slink etc.
+\n\n
+Mechanical waves are of two types:\n
+Transverse Wave.\n
+Longitudinal Wave.\n
+        \nLongitudinal Waves : Consider a wave moving. if the vibration of the particles of the medium are in the direction of wave propagation. We call it as Longitudinal Waves.
+        A Longitudinal wave proceeds in the form of compression and rarefaction which is the stretched rubber band. For a longitudinal wave at places of compression the pressure and density tends to be maximum, while at places where rarefaction takes place, the pressure and density are minimum. Longitudinal waves are known as Compression waves.
+        \n\n
+        Examples of longitudinal waves : Sound waves, tsunami waves, earthquake ,P - waves, ultra sounds, vibrations in gas, and oscillations in spring, internal water waves, and waves in slink etc.
+        \n\nTransverse Wave : The medium has particles that vibrate in a direction perpendicular to the direction of the propagation of wave. This Kind of wave produced is called Transverse Wave.
+        Here the formation of crust and trough takes place. Here the direction of propagation of energy is perpendicular to the direction of oscillations. There are always two directions that are independent of each other that can be used as the direction of wave.
+\n
+For example: vibration of string.
+        \n\nElectromagnetic Waves are the disturbance, which does not require any material medium for its propagation and can travel even through vacuum. They are caused due to varying electric and magnetic fields.
+         \nThe existence of medium is not essential for propagation. The Periodic changes takes place in electric and magnetic fields hence it is called Electromagnetic Wave.
+        \n\nProperties:\n
+In vacuum E.M waves travel with light velocity.\n
+E.M waves can be polarized.\n
+E.M waves are transverse in nature.\n
+Medium is not required for propagating the E.M waves.
+\nE.M waves have momentum.
+\n\nExample : Radio waves, light waves, thermal radiation, X ray etc.
+
+        \n\nMatter Waves are the waves produced in electrons and particles.\n
+
+These are also called De Broglie waves. They show or depict the wave nature or wave like nature of all matter, everything that makes up our body, the atoms etc.
+\n
+Considering the quantum physics we have a proof that the wavelength of matter waves is very small. There are various equations called the De Broglie equations which basically suggest the dual nature of matter. The frequency of these waves is directly depends on their kinetic energy,
+Momentum is not directly proportional to the wavelength of the particle and not inversely proportional.
+\n\n Other Waves are  :
+        \nSurface Wave :These waves can have mechanical nature. They can have an electromagnetic nature. Example is a ground wave propagating close to the earth’s surface. It can propagate between two fluids with different densities. For example a diving sea creature can create a surface wave. They are also called Rayleigh waves.\n
+        \nElastic Wave : The body which is elastic in nature produces this Elastic wave.The elastic body is responsible for setting the vibratory motion of particles. This vibratory motion basically causes the Elastic wave. For an elastic wave the particles always tend to come back to their original positions when set in wave motion. This leads to the formation of the wave.
+        \n\nExample :\n
+When gas which when compressed tend to come to its original position.\n
+When sound is transmitted through the gas then it is transmitted as an elastic wave. \n
+
+        \n\nSound Wave :
+        For sound waves the existence of material medium is very necessary for the propagation of the waves. The propagation of waves taking place in solid, liquid and gases which makes us hear the sound is called Sound wave.
+\n\n
+        Properties :\n\n
+-Sound waves are longitudinal in nature.\n
+-Material medium is necessary for the propagation of the sound waves.\n
+-The Speed of sound in air at N.T. P is 332 m/s.\n
+-The Sound is audible only between 20 Hz to 20 KHz.\n
+
+
+    </string>
+    <string name="types_of_waves">Types of Waves</string>
+    <string name="wave">Wave</string>
+    <string name="displacement_relation">Displacement Relation in Progressive Wave</string>
+    <string name="displacement_relation_theory">
+        From the above picture we can conclude that , the Displacement of particle depends on x and time . This means the wave function can defined in
+        terms of position(x) and time(t) .
+        \n\n\t\t\t\t\t\t\t\t\t\t\t\t y = f(x,t)\n
+        Let us consider some function and try to conclude some reuslts , the y is the function of x and t :
+        \n\n check wheather this are correct or not \n
+        1.y = x + t \n
+        2.y = x - t \n
+
+        \n For a equation to be correct \n -it must be dimesionally correct \n-As we know from the figure , that wave repeats it self
+        after some time , this means the position of particle at time t position x , must be equal to the t = 0 and x-vt .\n\n
+        i.e \t\t\t\t\t\t\t  y(x,t) = y(x-vt,0) .\n
+
+        Above two equation are dimesionally incorrect . \n
+        but if we multiple v with t , both equation will be a good example , but lets check if it satisfy our two conditions or not .\n
+        In y = x + t ; if we substitute x with x-vt and t = 0 , then \n
+        y = x-vt -t(0) = x - vt \n
+        x - vt not = x + vt ,\n this means  it doesn\'t satisfy our two conditions and so we can conclude it is not the equation of wave .but here is a little trick , we are considering the
+        wave motion in +x direction only which leads to condition y(x,t) = y(x-vt,0), but if wave direction is considered to be -x direction then
+        condition will be y(x,t) = y(x+vt,0), and this is satisfied by equation one and so this is a wave equation.
+
+        \n\n
+        Question : check these equation for travelling waves ?\n
+        y = sin(x-vt)\n
+        y = (x-vt)<sup>2</sup>\n
+        y = x<sup>2</sup>t + xvt<sup>2</sup>\n
+        y = sqrt(x-vt)\n
+        y = Ae<sup>-B(x-vt)<sup>2</sup></sup>\n
+        justify your answer .\n\n
+
+
+        <i>Eqaution of wave </i> :
+        \nTo completely describe a wave  we need a relation which describes the displacement of an element at a particular position as function of Time and also describes the state of vibration at given instant of time.\n
+        let Y(x,t) is displacement of particle in transverse wave at position x and time t, then y is given as \n
+        Y = Asin(kx-&#x3c9;t+p).
+        \nWhere A is Amplitude of wave (m)\n
+        k is wave number(m<sup>-1</sup>) \
+        v is velocity of wave (m/s)\n
+        p is initial phase (radian)\n\n
+
+        Case : if t = 0(mean position) and initail phase p = 0;\n
+        y = -Asin(&#x3c9;t) : this means the particle will oscillates at mean position with an Amplitude Range = [A,-A].
+
+        </string>
+    <string name="terms_of_wave">Some Important Terms Related To Wave </string>
+    <string name="term_theory">
+        \nAmplitude(m) : Maximum displacement of a vibrating particle from its mean position is called amplitude.
+        \nRange of amplitude is [A,-A]
+        \n\n
+        Wavelength(m): It is the minimum distance between two particles with same phase \nor\n We can also say that the distance between two consecutive crest or trough is called the wavelength.
+        \n\n
+        Frequency(Hz) : Number of oscillations completed by a wave in one second is called it\'s frequency.
+        \nF = 1 /T ;
+        \n\n
+        Time period (s) : Time taked by particle to complete one vibration about it\'s ,mean position is called it Time period.\
+        \n\n
+        Wave pulse : It is a short wave produced in a medium when the disturbance is created for the short time .
+        \n\n
+        Pulse train : A series of wave pulse is called Wave Train.
+        \n\n
+        Wave front : A wave front is a line or a surface on which the disturbance has the same phasee at all points.example ripples of the pond.
+        \n\n Note:
+        \n The differential wave equation is given by d<sup>2</sup>y/dt<sup>2</sup> = v<sup>2</sup>d<sup>2</sup>y/dx<sup>2</sup>\n
+        where v = &#x3c9;/k .
+        \n\n
+        Angular wave number or propagation constant : Number of wavelength in distance 2pi is called wave number or propagation constant (k)
+        \n k = 2&#x3a0;/&#x3bb;\n\n
+        Wave velocity (m/s): It is the distance travelled by the disturbance in one second. It depends on the properties of the medium and independent of the position and time .
+        v = &#x3c5;&#x3bb; = &#x3bb;/T = &#x3c9;/k
+        \n\n
+        Group Velocity : The velocity by which the group of wave travels is called group velocity(v<sub>g</sub>) .\n
+        v<sub>g</sub> = d&#x3c9;/dk
+    </string>
+
+    <string name="velocity">How to calculate Velocity of particle ? </string>
+    <string name="velocity_theory">
+        \n\n
+        As we know that displacement of a particle is given by y =  Asin(kx-&#x3c9;t+&#x3c6;) , the velocity of particle can be obtained by performing the differentiation with respect to t, \n\n
+        y =  Asin(kx-&#x3c9;t+&#x3c6;)\n
+        dy/dt = -A&#x3c9;cos(kx-&#x3c9;t)\n
+        v<sub>p</sub> = -A&#x3c9;cos(kx-&#x3c9;t)\n
+        This is the particle velocity . We can find the velocity of particle knowing the phase and angular velocity(&#x3c9;).
+
+
+    </string>
+    <string name="wavelength">How to find wavelength and Time Period </string>
+    <string name="wavelength_theory">
+        Wavlength is defined as minimum distance at which motion repeats it self that is same position , velocity and direction .
+        It is denoted by &#x3bb; . \n
+
+        Case : same displacement
+        Let us consider two particles at x and x+lambda then, we have same displacement corresponds to both particle i.e \n
+        Asin(kx-&#x3c9;t) = Asin(k(x+&#x3bb;)-&#x3c9;t)\n
+        Angle change : kx - &#x3c9;t = kx +k&#x3bb; -&#x3c9;t\n
+        = k&#x3bb;\n
+
+        Case : Same Velocity\n
+        Let us consider two particles at x and x+lambda then, we have same displacement corresponds to both particle i.e \n
+        -Awcos(kx-&#x3c9;t) = -Awcos(k(x+&#x3bb;)-&#x3c9;t)\n
+        Angle change : kx - &#x3c9;t = kx +k&#x3bb; -&#x3c9;t\n
+        = k&#x3bb;\n
+
+        now , as the minimum angle after which particle repeats its motion, that is Time period is 2&#x3c0; ,so\n
+        k&#x3bb; = 2&#x3c0;\n
+        &#x3bb; = 2&#x3c0;/k \n
+
+        This is the wavelength or the minimum distance after which wave motion will repeat .\n\n
+
+        Time period : Time after which displacement and Velocity are same is called time period .
+        Let us consider wave at time t and t + T , where T is the time period then \n
+        Asin(kx-&#x3c9;t) = Asin(kx-&#x3c9;(t+T))\n
+          kx - &#x3c9;t = kx +k&#x3bb; -&#x3c9;t-&#x3c9;T\n
+         \n change in angle = &#x3c9;T
+        Minimum time period after which sine wave must repeat itself is 2&#x3c0; so , \n
+        &#x3c9;T  = 2&#x3c0;\n
+        T = 2&#x3c0;/&#x3c9; \n\n
+
+    </string>
+    <string name="waveimage">Wave image</string>
+    <string name="relation_between_wvt">Relation between Wavelength , Wave Velocity and Time Period</string>
+    <string name="relation_between_wvt_theory">
+        y = Asin(kx-wt)\n
+        where w = kv\n
+         2&#x3c0;/T =  (2&#x3c0;/&#x3bb;)v\n
+        &#x3bb; = vT, Where v is the wave velocity , T is time period and &#x3bb; is wavelength.\n\n
+<i>Note</i> :  from &#x3bb; = vT  we can conclude that , time in which particle completes one oscillation , travels a distance of  &#x3bb; .\n\n
+    </string>
+
+    <string name="frame_of_referencend_intial_phase">Initial frame of reference and initial phase</string>
+    <string name="frame_of_referencend_intial_phase_theory">
+        It depends on us to choose a initial frame of feference , i.e which is our mean position .\n\n
+        Case 1 : let the mean position is when particle is at y = 0 at t= 0 , x=0 , then our equation of wave which stisfy this condition is given by\n
+        y = Asin(kx-&#x3c9;t)\n
+        y = 0, at x = 0, t = 0\n
+        y = [mean position]\n
+        now lets check the direction in which the particle is going .\n\n
+        Vp = -A&#x3c9;cos(kx-&#x3c9;t)\n
+        Vp = -A&#x3c9; at x = 0, t= 0\n
+        This means particle is going downward from its mean position .\n\n
+
+        Case 2 : let the mean position is at maximum position i.e y = A at x = 0 , t = 0. then the equation of wave which satisfy this condition is given by \n
+        y = Asin(kx-&#x3c9;t+&#x3c0;/2)\n
+        y = A , at x = 0, t = 0\n
+        y = [highest position]\n
+        now lets check the direction in which the particle is going .\n\n
+        Vp = -A&#x3c9;cos(kx-&#x3c9;t+&#x3c0;/2)\n
+        Vp = 0 at x = 0, t= 0 \n
+        This means particle is at rest at mean position .\n\n
+
+        Case 3 : let us choose the initial mean position such that y = 0 and particle is going upward , then the wave equation is given by \n
+        y = Asin(kx-&#x3c9;t+&#x3c0;)\n
+        y = 0, at x = 0, t = 0\n
+        y = [mean position]\n
+        now lets check the direction in which the particle is going .\n\n
+        Vp = -A&#x3c9;cos(kx-&#x3c9;t+&#x3c0;)\n
+        Vp = A&#x3c9; at x = 0, t= 0\n
+        This means particle is going upward from its mean position .\n\n
+
+        conclusion : There should be constant added in the phase according to our initial frame(mean position), This constant is called initial phase and denoted by phi .\n
+        General equation of wave is then given by \n
+        y = Asin(kx-&#x3c9;t+&#x3c6;) : where &#x3c6; is the phase constant.\n\n
+
+        Question : What will be the equation of the wave going from left to right ?\n
+        ans: Y = Asin(kx+&#x3c9;t)\n
+
+    </string>
+    <string name="speed_of_wave_in_streched_string">The speed of Traverse wave in stretched string</string>
+    <string name="speed_of_wave_in_streched_string_theory">
+        The speed of wave in string depends on two factors :\n
+        The linear mass density(&#x3bc;) or mass per unit length and second.\n
+        The Tension in the string (T).\n\n
+        The mass is required so that there is a kinetic energy and without Tension the motion of disturbance is not possible .\n\n
+        We are going to deduce the expression of spedd through dimensional analysis.\n\n
+        v &#x221d; T -------------(1)\n
+        v &#x221d; 1/&#x3bc; -----------(2)\n
+        from 1 and 2 we can say the ratio of dimension of T and &#x3bc; must be equal to velocity , so \n\n
+        [MLT<sup>-2</sup>]/[ML<sup>-1</sup>] = [L<sup>2</sup>T<sup>-2</sup>]
+        \n\n
+        If v depends only on T and &#x3bc; , the relation between them must be\n
+        v = C &#x221a;(T/&#x3bc;)----- C is dimensional constant and equal to one so , the final expression of velocity is given by \n
+        v = &#x221a;(T/&#x3bc;).\n
+        Thus we can say that velocity of wave depends only on Tension and mass of string and does not depends on frequency of wave.\n\n
+
+
+    </string>
+    <string name="reflection">Reflection of wave</string>
+    <string name="reflection_theory">
+        
+    </string>
+    <!-- chapter 2 unit and measurement -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="unit_and_measurement">Unit and measurement</string>
+    <string name="introduction">
+        Physics describe the laws of nature and this description is quantitative in nature and require some measurement and comparison of quantities. To measure some physical quantity we need some units of that quantity .\n\n
+        CGPM also know as General Conference on Weight and Measure , decides all the standard Units .\n
+
+
+    </string>
+    <string name="fundamentalq">
+
+        Fundamental and derived quantities :
+        \n\nFundamental Quantites :
+        We can define the fundamental quantites as follow \n
+        a) The fundamental quantity should be independent of each other and
+        \nb) All the other quantities may be expressed in terms of fundamental quantites .\n\n
+
+        It turns out that there are Only seven fundamental quantities .All the other quantites can be derived from these fundamental quantities by multiplication and division.These are called derived quantities . \n
+        The units for fundamental quanitites is called funadmental untis and units for derived quantities is called derived units .\n
+
+        The seven fundamental quantities are :\n
+    </string>
+    <string name="definations">Properties and defination of fundamental or Base units :\n
+        Properties : Any standard unit should follow this two properties \n
+        a) Invariability : The stanard unit nust be invariable , means does not depends on condiitons .\n
+        b) Availability : The standard unit should be available for comparing other quantities .\n
+        \n
+        Definations : \n\n
+        Metre : It is the unit of length . The distance travelled by light in vacuum in 1/299,792,458 second is called 1m .
+        \n\n
+        Kilogram : The mass of a cylinder made of platinum - irridium alloy kept at International Bureau of Weights and Measure is defineds as 1Kg.\n
+       \n Second : The second (abbreviation, s or sec) is the Standard International ( SI ) unit of time. One second is the time that elapses during 9,192,631,770 cycles of the radiation produced by the transition between two levels of the cesium 133 atom.\n
+        \nAmpere : The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed one metre apart in vacuum, would produce between these conductors a force equal to 2×10<sup>−7</sup> newtons per metre of length.\n
+        \nKelvin : The fraction 1/273.16 of the thermodynamic tempreture of tripple point of water is called 1K .\n
+        \nMole : The amount of substabce that contains as many elementry entities as there of atoms in 0.012Kg of carbon is called 1 mole. This number is calledd avogadro constant and is equal to 6.022045 * 10<sup>23</sup> .
+        \nCandela : 1 candela is the luminous intensity of a blackbody of surface area 1/600000 m<sup>2</sup> placed at a tempreture of freezing platinum and at a pressure of 101325 N/m<sup>2</sup> , in the directiion perpendicular to its surface .\n\n
+</string>
+    <string name="fundamental">fundamental</string>
+    <string name="introductionhead">Introduction</string>
+    <string name="fundamental_or_base_quantities_and_thier_units">Fundamental or base quantities and thier units :</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_expressions">Enter your expressions ..</string>
+    <string name="solve_the_equation">Solve the expression </string>
+    <string name="error">Syntax error</string>
+    <string name="expression_solver_calculator"><![CDATA[>Expression solver calculator]]></string>
+    <string name="your_answer">Your Answer</string>
+    <string name="two_supplementry_units">Two supplementry units</string>
+    <string name="radian_and_stredian">
+        Radian : It is the unit of the angle in a plane , one radian is the angle subtended at the centre of circle by an arc of length equal to radius of tht circle .
+
+    </string>
+    <string name="motion_in_straight_line">Motion In Straight Line</string>
+    <string name="electrostatics">16- Electrostatics</string>
+    <string name="current">18- Current Electricity</string>
+    <string name="_17_electrostatic_potential">17- Electrostatic potential</string>
+    <string name="_19_magnetic_effect_of_current">19- Magnetic effect of current</string>
+</resources>
