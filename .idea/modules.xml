@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ConceptofPhysics.iml" filepath="$PROJECT_DIR$/ConceptofPhysics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ConceptofPhysics-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ConceptofPhysics-app.iml" group="ConceptofPhysics/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/androidprojects-ConceptofPhysics.iml" filepath="$PROJECT_DIR$/.idea/modules/androidprojects-ConceptofPhysics.iml" group="ConceptofPhysics" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
